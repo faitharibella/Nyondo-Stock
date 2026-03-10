@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #8eb178;
+  display: flex;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 30%;
+}
+
+.sidebar {
+  flex: 1;
+  border: 1px solid black;
+  flex-direction: column;
+  padding: 30px;
+}
+/* content */
+.content {
+  flex: 3;
+  text-align: center;
+  padding: 20px;
+  border-left: 2px solid #000;
+  /* width: 100%; */
+}
+/* input-section */
+.input-section {
+  display: flex;
+  flex: 0 0 30%;
+  flex-direction: column;
+  width: 30%;
+}
+.input-container {
+  display: flex;
+  gap: 20px;
+  /* margin-bottom: 20px; */
+  flex-wrap: wrap;
+}
+.input-section input,
+.input-section select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  /* display: flex; */
+}
+.input-section label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/* content
+.content{
+    flex: 3;
+    padding: 20px;
+    background: aqua;
+    border-left: 2px solid #000;
+    text-align: center;
+} */
+/* .items-row{
+display:flex;
+gap:20px;
+margin-bottom:15px;
+}
+
+.items-row div{
+display:flex;
+flex-direction:column;
+flex:1;
+} */
+/* buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* .cancel{
+padding:10px 35px;
+background:white;
+border:1px solid blue;
+color:blue;
+}
+
+.submit{
+padding:10px 35px;
+background:#3d5ed3;
+border:none;
+color:white;
+} */
+.content form {
+  max-width: 700px;
+  margin: auto;
+}
+form {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}

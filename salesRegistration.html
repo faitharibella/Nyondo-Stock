@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="sales.css" />
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div>
+          <a href="dashboard.html">Dashboard</a>
+        </div>
+        <div>
+          <a href="sales management.html">Sales Management</a>
+        </div>
+        <div>
+          <a href="supplierRegistration.html">Supplier Registration</a>
+        </div>
+        <div>
+          <a href="stock management.html">Stock Management</a>
+        </div>
+        <div>
+          <a href="transport management.html">Transport Mnangement</a>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <form>
+        <!-- Section 1 -->
+        <section>
+          <h1 class="sales">Sales Registration</h1>
+          <div class="input-container">
+            <div class="input-section">
+              <label for="salesdate">Sales Registration</label>
+              <input type="date" />
+            </div>
+            <div class="input-section">
+              <label for="salesperson">Sales Person</label>
+              <select name="" id="">
+                <option value="select a salesrepresentative">
+                  select salesrepresentative
+                </option>
+                <option value="1">Faith Jeon</option>
+                <option value="2">Kim Ian</option>
+                <option value="3">Namjoon Park</option>
+              </select>
+            </div>
+          </div>
+        </section>
+        <!-- section 2 -->
+        <section>
+          <h1 class="customer">Customer Details</h1>
+          <div class="input-container">
+            <div class="input-section">
+              <label for="fullname">Name</label>
+              <input type="text" id="" placeholder="enter fullname" />
+            </div>
+            <div class="input-section">
+              <label for="phonenumber">Phone Number</label>
+              <input type="tel" placeholder="enter phonenumber" />
+            </div>
+            <div class="input-section">
+              <label for="email">Email</label>
+              <input type="email" placeholder="enter email" />
+            </div>
+            <div class="input-section">
+              <label for="type">Type</label>
+              <select name="" id="">
+                <option value="1">Client</option>
+                <option value="2">Buyer</option>
+              </select>
+            </div>
+          </div>
+        </section>
+        <!-- section three -->
+        <section>
+          <h1 class="item">Items</h1>
+          <div class="input-container">
+            <div class="input-section">
+              <label for="pdt id">Pdt ID</label>
+              <input type="text" placeholder="Pdt ID" />
+            </div>
+            <div class="input-section">
+              <label for="pdt id">Pdt ID</label>
+              <input type="text" placeholder="Pdt ID" />
+            </div>
+            <div class="input-section">
+              <label for="quantity">Quantity</label>
+              <input type="number" />
+            </div>
+            <div class="input-section">
+              <label for="quantity">Quantity</label>
+              <input type="number" />
+            </div>
+            <div class="input-section">
+              <label for="unit price">Unit Price</label>
+              <input type="number" />
+            </div>
+            <div class="input-section">
+              <label for="unit price">Unit Price</label>
+              <input type="number" />
+            </div>
+          </div>
+        </section>
+        <!-- buttons -->
+        <div class="buttons">
+          <div class="cancel">
+            <button>Cancel</button>
+          </div>
+           <div class="buttons">
+            <button>Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
