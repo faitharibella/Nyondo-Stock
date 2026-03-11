@@ -27,92 +27,90 @@
       </div>
     </div>
     <div class="content">
-      <form>
+      <form action="" method="get">
         <!-- Section 1 -->
+        <h1>Sales Registration</h1>
         <section>
-          <h1 class="sales">Sales Registration</h1>
-          <div class="input-container">
-            <div class="input-section">
-              <label for="salesdate">Sales Registration</label>
-              <input type="date" />
-            </div>
-            <div class="input-section">
-              <label for="salesperson">Sales Person</label>
-              <select name="" id="">
-                <option value="select a salesrepresentative">
-                  select salesrepresentative
-                </option>
-                <option value="1">Faith Jeon</option>
-                <option value="2">Kim Ian</option>
-                <option value="3">Namjoon Park</option>
-              </select>
-            </div>
+          <!-- <div class="input-container"> -->
+          <div>
+            <label for="salesdate">Sales Registration</label>
+            <input type="date" />
           </div>
+          <div>
+            <label for="salesperson">Sales Person</label>
+            <select name="" id="salesperson">
+              <option value="select a salesrepresentative">
+                select salesrepresentative
+              </option>
+              <option value="1">Faith Jeon</option>
+              <option value="2">Kim Ian</option>
+              <option value="3">Namjoon Park</option>
+            </select>
+          </div>
+          <!-- </div> -->
         </section>
         <!-- section 2 -->
+        <h2>Customer Details</h2>
         <section>
-          <h1 class="customer">Customer Details</h1>
-          <div class="input-container">
-            <div class="input-section">
+          <!-- <div> -->
+            <div>
               <label for="fullname">Name</label>
               <input type="text" id="" placeholder="enter fullname" />
-            </div>
-            <div class="input-section">
               <label for="phonenumber">Phone Number</label>
               <input type="tel" placeholder="enter phonenumber" />
             </div>
-            <div class="input-section">
+            <div>
               <label for="email">Email</label>
-              <input type="email" placeholder="enter email" />
-            </div>
-            <div class="input-section">
+              <input type="email" placeholder="enter email" />>
               <label for="type">Type</label>
               <select name="" id="">
-                <option value="1">Client</option>
-                <option value="2">Buyer</option>
+                <option value="client">Client</option>
+                <option value="buyer">Buyer</option>
+                <option value="wholesale">Wholesale</option>
               </select>
             </div>
-          </div>
+          <!-- </div> -->
         </section>
         <!-- section three -->
+        <h2>Items</h2>
         <section>
-          <h1 class="item">Items</h1>
-          <div class="input-container">
-            <div class="input-section">
-              <label for="pdt id">Pdt ID</label>
-              <input type="text" placeholder="Pdt ID" />
-            </div>
-            <div class="input-section">
-              <label for="pdt id">Pdt ID</label>
-              <input type="text" placeholder="Pdt ID" />
-            </div>
-            <div class="input-section">
-              <label for="quantity">Quantity</label>
-              <input type="number" />
-            </div>
-            <div class="input-section">
-              <label for="quantity">Quantity</label>
-              <input type="number" />
-            </div>
-            <div class="input-section">
-              <label for="unit price">Unit Price</label>
-              <input type="number" />
-            </div>
-            <div class="input-section">
-              <label for="unit price">Unit Price</label>
-              <input type="number" />
-            </div>
+          <!-- <div class="input-container"> -->
+          <div>
+            <label for="pdt id">Pdt ID</label>
+            <input type="text" placeholder="Pdt ID" />
+          </div>
+          <div>
+            <label for="quantity">Quantity</label>
+            <input type="number" />
+          </div>
+          <div>
+            <label for="unit price">Unit Price</label>
+            <input type="number" />
           </div>
         </section>
+        <br />
+        <section>
+          <div>
+            <label for="pdt id">Pdt ID</label>
+            <input type="text" placeholder="Pdt ID" />
+          </div>
+          <div>
+            <label for="quantity">Quantity</label>
+            <input type="number" />
+          </div>
+          <div>
+            <label for="unit price">Unit Price</label>
+            <input type="number" />
+          </div>
+        </section>
+        <!-- </div> -->
+          <!-- </div> -->
+           <br>
         <!-- buttons -->
-        <div class="buttons">
-          <div class="cancel">
-            <button>Cancel</button>
-          </div>
-           <div class="buttons">
-            <button>Submit</button>
-          </div>
-        </div>
+        <section id="btn-section">
+          <button type="reset">Cancel</button>
+          <button type="submit">Submit</button>
+        </section>
       </form>
     </div>
   </body>
