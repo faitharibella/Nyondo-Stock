@@ -30,6 +30,7 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
+/* Form */
 form {
   border: 1px solid black;
   /* width: 100%; */

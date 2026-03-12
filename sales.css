@@ -46,6 +46,7 @@ select > div {
   display: flex;
   flex-direction: column;
 }
+/* input */
 input,
 select {
   height: 30px;
