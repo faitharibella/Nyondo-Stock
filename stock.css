@@ -1,0 +1,46 @@
+body {
+  background-color: #f0f2f5; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/*  Sidebar */
+.col-3 {
+  background-color: #505457; 
+  color: #ffffff; 
+  padding: 20px; 
+  border-radius: 10px; 
+}
+
+/* Sidebar links style */
+.col-3 a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 50px;
+  transition: background 0.2s;
+}
+
+.col-3 a:hover {
+  background-color: #3e4247; 
+}
+
+/*  Form area */
+.col-9 {
+  padding: 20px; 
+  background-color: rgb(143, 139, 139); 
+  border-radius: 10px; 
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Form inside col-9 */
+.stock-form {
+  border: 2px solid #2e74c0; 
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f9fa; 
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05);
+}
+

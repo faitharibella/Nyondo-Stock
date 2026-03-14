@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stock Registration Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stock.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">NyondoStock System</span>
+      </div>
+    </nav>
+
+    <!-- container -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3 bg-secondary">
+          <div>
+            <a href="dashboard.html">Dashboard</a>
+          </div>
+          <div>
+            <a href="sales management.html">Sales Registration</a>
+          </div>
+          <a href="supplierRegistration.html">Supplier Registration</a>
+        </div>
+
+        <!-- form -->
+        <div class="col-9">
+          <form action="">
+             <h1 class="text-center"><b>Stock Registration</b></h1>
+            <h3 class="text-center">Basic Information</h3>
+            <div class="row my-3">
+              <div class="col">
+                <label for="stock id" class="form-label">Stock ID</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col">
+                <label for="person" class="form-label">Person in Charge</label>
+                <select class="form-select" aria-label="incharge person">
+                  <option selected>Select person-in-charge</option>
+                  <option value="storekeeper">Store Keeper</option>
+                  <option value="inventory">Inventory Manager</option>
+                  <option value="warehouse">Warehouse Manager</option>
+                  <option value="stock">Stock Clerk</option>
+                  <option value="supervisor">Supervisor</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <label for="date" class="form-label">Date</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="First name"
+                />
+              </div>
+            </div>
+
+            <!-- product details -->
+            <h3 class="text-center">Product Information</h3>
+            <div class="row">
+              <div class="row">
+                <div class="col">
+                  <label for="product" class="form-label">Product Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="name"
+                    aria-label="First name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="enter tel"
+                    aria-label="Last name"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <label for="product" class="form-label">Product Id</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="name"
+                    aria-label="First name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="formGroupExampleInput" class="form-label"
+                    >Address</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="name"
+                    aria-label="First name"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- stock info-->
+            <h2 class="text-center">Stock Details</h2>
+            <!-- row 1 -->
+            <div class="row">
+              <div class="col">
+                <label for="quantity" class="form-label">Quantity</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col">
+                <label for="location" class="form-label">Stock location</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Last name"
+                  aria-label="Last name"
+                />
+              </div>
+              <!-- row 2 -->
+              <div class="row">
+                <div class="col">
+                  <label for="unitprice" class="form-label">Unit Price</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="name"
+                    aria-label="First name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="sellingprice" class="form-label"
+                    >Selling Price</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="name"
+                    aria-label="First name"
+                  />
+                </div>
+                <!-- row 3 -->
+                <div class="row">
+                  <div class="col">
+                    <label for="restock" class="form-label">Restock Date</label>
+                    <input
+                      type="date"
+                      class="form-control"
+                      placeholder="name"
+                      aria-label="First name"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="stockkeepingunit" class="form-label"
+                      >Stock Keeping Unit</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="name"
+                      aria-label="First name"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Supplier info -->
+            <h3 class="text-center">Supplier Information</h3>
+            <!-- row 1 -->
+            <div class="row">
+              <div class="col">
+                <label for="suppliername" class="form-label"
+                  >Supplier Name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="enter fullname"
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col">
+                <label for="email" class="form-label">Supplier Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  aria-label="First name"
+                />
+              </div>
+            </div>
+            <!-- row 2-->
+            <div class="row">
+              <div class="col">
+                <label for="supplieraddress" class="form-label"
+                  >Supplier Address</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First name"
+                  aria-label="First name"
+                />
+              </div>
+              <div class="col">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Select Country</option>
+                  <option value="1">Uganda</option>
+                  <option value="2">Kenya</option>
+                  <option value="3">Tanzania</option>
+                  <option value="4">Rwanda</option>
+                </select>
+              </div>
+            </div>
+            <!-- extra info -->
+            <h3 class="text-center">Extra Information</h3>
+            <div class="row">
+              <div class="row">
+                <div class="col">
+                  <label for="batch no" class="form-label">Batch Number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="enter batch number"
+                    aria-label="Batch"
+                  />
+                </div>
+                <div class="col">
+                  <label for="VAT" class="form-label">VAT</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="enter VAT"
+                    aria-label="VAT"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- Authorization -->
+            <h3 class="text-center">Authorization</h3>
+            <div class="row">
+              <div class="mb-3">
+                <label for="Recieved" class="form-label">Recieved By</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="text"
+                  placeholder=""
+                />
+              </div>
+              <div class="mb-3">
+                <label for="Checked by" class="form-label">Checked By</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="text"
+                  placeholder=""
+                />
+              </div>
+              <div class="mb-3">
+                <label for="Authorization" class="form-label"
+                  >Authorized By</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="text"
+                  placeholder=""
+                />
+              </div>
+              <div class="mb-3">
+                <label for="date of authorization" class="form-label"
+                  >Date of Authorization</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="text"
+                  placeholder=""
+                />
+              </div>
+            </div>
+            <!-- buttons -->
+            <div class="row">
+              <div class="col">
+                <button type="button" class="btn btn-outline-light btn-sm">
+                  Cancel
+                </button>
+              </div>
+              <div class="col text-end">
+                <button type="button" class="btn btn-secondary btn-sm">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
